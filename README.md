@@ -26,7 +26,7 @@ File conversion using the CloudConvert API and Linx.
 
 This example includes two different flows to demonstrate the CloudConvert Process. Because CloudConvert uses the principle of tasks and jobs, there are many different ways you can perform the Conversions. However, in this example, Linx is only using Tasks, and keeping track of them. The two flows in this example are:
 
-- **Task Manager Using Sleeps**: In this flow, there is a singular straight down process which keeps looping and checking the status of a task, until it's complete, and then go onto the next. This is not recommended as you could easily go into an infinate loop, however, this is the easiest way to understand how CloudConvert tasks work.
+- **Task Manager Using Sleeps**: In this flow, there is a singular straight down process which keeps looping and checking the status of a task, until it's complete, and then go onto the next. This is not recommended as you could easily go into an infinite loop, however, this is the easiest way to understand how CloudConvert tasks work.
 - **Tasks Manager Using TXT Files**: This is a TXT-based database illustrating how you could set up your tasks and then go through the phases of the convertion flow. 
 
 The actuall calls to CloudConvert are done in the APICalls folder
