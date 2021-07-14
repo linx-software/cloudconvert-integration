@@ -13,6 +13,7 @@ File conversion using the CloudConvert API and Linx.
 - Save the API key
 
 ### Linx Setup
+- Install Linx Designer from https://linx.software
 - Using Linx Designer, open the solution file "CloudConvert.lsoz"
 - Select "Settings" and set up your details:
 -- APIKey: The key you just created in CloudConvert
