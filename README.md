@@ -16,12 +16,12 @@ File conversion using the CloudConvert API and Linx.
 - Install Linx Designer from https://linx.software
 - Using Linx Designer, open the solution file "CloudConvert.lsoz"
 - Select "Settings" and set up your details:
--- APIKey: The key you just created in CloudConvert
--- APIKeyName: As you've defined it in CloudConvert. Not used in Linx, but good for referencing back to which key you are using.
--- CCPassword: Again, not used in Linx
--- CCUrl: Can keep as is
--- CCUsername: For your reference, you can save your CloudConvert username here
--- TempTaskFolder: The folder this example with use to place your .tasks files in.
+    - APIKey: The key you just created in CloudConvert
+    - APIKeyName: As you've defined it in CloudConvert. Not used in Linx, but good for referencing back to which key you are using.
+    - CCPassword: Again, not used in Linx
+    - CCUrl: Can keep as is
+    - CCUsername: For your reference, you can save your CloudConvert username here
+    - TempTaskFolder: The folder this example with use to place your .tasks files in.
 
 ## Usage
 
